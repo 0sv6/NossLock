@@ -1,9 +1,0 @@
---// Updated Link: https://pastebin.com/DLmveS11
-
-local Redirection = "https://pastebin.com/DLmveS11"
-
-pcall(function()
-		setclipboard(Redirection)
-		toclipboard(Redirection)
-		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Updated!", Text = "COPIED NEW Link To Clipboard, REJOIN AFTER!", Duration = 30,});
-end)

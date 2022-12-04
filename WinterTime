@@ -1,18 +1,16 @@
---// Created By Nosssa, Atman, Rya 🦁 🦁 🦁
-
---// Roblox Group ( TeamNosss! ): https://www.roblox.com/groups/16003304/TeamNosss#!/about
+--// Created By z0svaa 🦁
 
 --// Retards don't execute this raw script file to avoid issues thanks!
 
 
 --// Debounce
-local WinterTime_Updating = false
+local StormTime_Updating = false
 
 
 --// Awaiting_Update
 function Is_Updating()
 	pcall(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTimeCURRENTLYUPDATING"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/z0svaa/OzvLock/main/StormTimeCURRENTLYUPDATING"))()
 	end)
 end
 
@@ -20,14 +18,14 @@ end
 --// Launch_Bootstrapper
 function _Allow()
 	pcall(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTimeBOOTSTRAPPER"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/z0svaa/OzvLock/main/StormTimeBOOTSTRAPPER"))()
 	end)
 end
 
 
 --// Sort_Debounce
-if WinterTime_Updating == false then
+if StormTime_Updating == false then
 	_Allow()
-elseif WinterTime_Updating == true then
+elseif StormTime_Updating == true then
 	Is_Updating()
 end

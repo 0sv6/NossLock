@@ -29,7 +29,7 @@ pcall(function()
 
 	--// GUI_Changes_Notification
 	local GUIChangesHeader = "GUI-Changes";
-	local GUIChangesBody = "WinterTime will be recieving a GUI Width Re-Size soon.";
+	local GUIChangesBody = "StormTime will be recieving a GUI Width Re-Size soon.";
 
 	--// Commands_List_Notification
 	local CommandsListHeader = "Commands";
@@ -37,7 +37,7 @@ pcall(function()
 
 	--// Remind_Premium_Notification
 	local RemindPremiumHeader = "Reminder";
-	local RemindPremiumBody = "You don't have to execute WinterTime in order to use premium commands!";
+	local RemindPremiumBody = "You don't have to execute StormTime in order to use premium commands!";
 
 	--// Need_Help_Notification
 	local NeedHelpHeader = "Need help?";
@@ -47,13 +47,13 @@ pcall(function()
 	local PremiumIngestHeader = "Corrections";
 	local PremiumIngestBody = "If you have bought premium, make sure to send your user ID again incase, thanks.";
 	
-	--// WinterTime_Advanced_Notification
-	local WinterTimeAdvancedHeader = "WinterTime-Advanced";
-	local WinterTimeAdvancedBody = "WinterTime will be recieving an "Enhanced" GUI update in a short time period from now!";
+	--// StormTime_Advanced_Notification
+	local StormTimeAdvancedHeader = "StormTime-Advanced";
+	local StormTimeAdvancedBody = "StormTime will be recieving an "Enhanced" GUI update in a short time period from now!";
 
-	--// Rate_WinterTime_Notification
-	local RatingWinterTimeHeader = "Like WinterTime?";
-	local RatingWinterTimeBody = "Tell us what we could improve on and what you would like to see changed in the discord.";
+	--// Rate_StormTime_Notification
+	local RatingStormTimeHeader = "Like StormTime?";
+	local RatingStormTimeBody = "Tell us what we could improve on and what you would like to see changed in the discord.";
 
 	--// Start_Coin_Flip
 	pcall(function()
@@ -77,9 +77,9 @@ pcall(function()
 		elseif DripOrDrown == 8 then
 			game:GetService("StarterGui"):SetCore("SendNotification", {Title = tostring(PremiumIngestHeader), Text = tostring(PremiumIngestBody), Duration = tonumber(BaseLabelDuration),});
 		elseif DripOrDrown == 9 then
-			game:GetService("StarterGui"):SetCore("SendNotification", {Title = tostring(WinterTimeAdvancedHeader), Text = tostring(WinterTimeAdvancedBody), Duration = tonumber(BaseLabelDuration),});
+			game:GetService("StarterGui"):SetCore("SendNotification", {Title = tostring(StormTimeAdvancedHeader), Text = tostring(StormTimeAdvancedBody), Duration = tonumber(BaseLabelDuration),});
 		elseif DripOrDrown == 10 then
-			game:GetService("StarterGui"):SetCore("SendNotification", {Title = tostring(RatingWinterTimeHeader), Text = tostring(RatingWinterTimeBody), Duration = tonumber(BaseLabelDuration),});
+			game:GetService("StarterGui"):SetCore("SendNotification", {Title = tostring(RatingStormTimeHeader), Text = tostring(RatingStormTimeBody), Duration = tonumber(BaseLabelDuration),});
 		end;
 
 		else
